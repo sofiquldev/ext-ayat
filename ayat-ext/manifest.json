@@ -1,0 +1,15 @@
+{
+    "name": "Ayat",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "Ayat is Random Quran Ayat Loader.",
+    "icons": {
+        "16": "icons/ayat-16.png",
+        "32": "icons/ayat-32.png",
+        "48": "icons/ayat-48.png",
+        "128": "icons/ayat-128.png"
+    },
+    "action": {
+        "default_popup": "popups/index.html"
+    }
+}

@@ -15,8 +15,7 @@ const loadAyat = ( n = getRandomNumber(1, 6232) ) => {
     .then(res => {
         if(res.data) {
             let AR = res.data[0], AUDIO = res.data[1], BN = res.data[2]
-    
-            ayatInfo.innerHTML = `${AR.surah.englishName} <span>(${AR.surah.number}:${AR.surah.numberOfAyahs })</span>`
+            ayatInfo.innerHTML = `${AR.surah.englishName} <span>(${AR.surah.number}:${AR.numberInSurah })</span>`
             ayatAR.innerHTML = AR.text
             ayatBN.innerHTML = BN.text
             ayatAudio.src = AUDIO.audio

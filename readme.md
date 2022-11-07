@@ -1,7 +1,7 @@
 ## **Ayat**
 ### Ayat is a random verse loader from Quran.
 -----------------
-![ayat extention](screenshot.jpg)
+![ayat extention](screenshot.png)
 
 ### **what you can do**
 [x] You can load random **Ayat of Quran**

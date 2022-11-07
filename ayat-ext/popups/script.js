@@ -32,6 +32,11 @@ ayatControl.addEventListener('click', () => {
     ayatAudio.paused ? ayatAudio.play() : ayatAudio.pause();
 })
 ayatReload.addEventListener('click', () => loadAyat())
+// Audio Play or Pause ? Check every 0.5 sec
+setInterval(() => {
+    ayatAudio.paused ? ayatControl.innerHTML = '<i class="gg-play-button"></i>' : ayatControl.innerHTML = '<i class="gg-play-pause"></i>'
+    ayatAudio.paused ? ayatControl.classList.remove('active') : ayatControl.classList.add('active');
+}, 500)
 
 // Init Ayat
 loadAyat()

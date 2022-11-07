@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Ayat — by @sofiquldev",
+    "description": "The description of the extension, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Ayat is a random verse loader from Quran.",
+    "description": "The description of the extension, displayed in the web store."
+  }
+}

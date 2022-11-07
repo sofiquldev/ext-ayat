@@ -14,5 +14,4 @@
     },
 	"permissions": ["activeTab"],
     "default_locale": "en"
-	
 }

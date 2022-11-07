@@ -23,4 +23,4 @@
 - [] Can't running it as **background app.** 
 
 ### **Promo Video**
-[![Promo Video of Ayat Extention](screenshot.jpg)](https://www.youtube.com/embed/FOOVZpL_Db4)
+[YouTube Link](https://youtu.be/FOOVZpL_Db4)
